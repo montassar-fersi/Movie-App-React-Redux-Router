@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  margin-bottom:130px;
+}
+.entre{
+  height: 50px;
+  width: 712px;
+  border-radius: 20px;
+  font-size: 50px;
+}
+.btnsrch{
+    color: black;
+    width: 119px;
+    height: 55px;
+    border-color: white;
+    background-color: grey;
+    border-radius: 19px;
+    font-size: 25px;
+}
+.btnEditEdelete{
+  display: flex;
+  justify-content: space-around;
+}
+.btnED{
+  color: black;
+    width: 119px;
+    height: 55px;
+    border-color: white;
+    background-color: grey;
+    border-radius: 19px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btnED:hover{
+  box-shadow: 5px 5px 5px 5px blue;
+  color: blue;
+}
+
+#btnED{
+  display: flex;
+  margin-left: 17%;
+  width: 200px;
+  height: 62px;
+}
+.btnsrch:hover{
+  box-shadow: 5px 5px 5px 5px blue;
+  color: blue;
+}
+.movie {
+  padding: 0 116px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgfilm{
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  margin: 0 20px 60px 20px;
+  width: 300px;
+  height: 470px;
+  background-color: burlywood;
+}
+.modal{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.paper{
+  background-Color: white;
+  border: 2px solid #000;
+  box-shadow: black;
+  padding: 2px 4px 3px
 }
+.btn-modal{
+  width: 302px;
+  height: 470px;
+  border-radius: 10px;
+  font-size: 200px;
+  background-color: burlywood;
+}
+.imgfilm:hover{
+  box-shadow: 0 10px 10px 10px blue;
+}
+.imgfilm img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.name{
+  display:flex;
+  padding-top: 20px;
+  padding-left: 28px;
+  justify-content: space-between;
+  padding-right: 35px;
+  color: #747474;
+  font-size: 18px;
+  padding: 10px;
+}
+.imgfilm {
+  text-decoration: none;
+}
+.stars{
+  margin-top: -13px;
+    line-height: 5px;
 }
